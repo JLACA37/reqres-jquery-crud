@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD con jQuery + ReqRes</title>
 
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Nuestro JS -->
+  <script src="js/app.js"></script>
+</head>
+<body>
+  <h1>CRUD con jQuery usando ReqRes</h1>
+
+  <section>
+    <h2>Listar usuarios</h2>
+    <button id="btn-list">Listar usuarios</button>
+    <pre id="list-result"></pre>
+  </section>
+
+  <section>
+    <h2>Crear usuario</h2>
+    <input id="create-name" placeholder="Nombre">
+    <input id="create-job" placeholder="Trabajo">
+    <button id="btn-create">Crear</button>
+    <pre id="create-result"></pre>
+  </section>
+
+  <section>
+    <h2>Actualizar usuario</h2>
+    <input id="update-id" placeholder="ID del usuario (ej. 2)">
+    <input id="update-name" placeholder="Nombre">
+    <input id="update-job" placeholder="Trabajo">
+    <button id="btn-update">Actualizar</button>
+    <pre id="update-result"></pre>
+  </section>
+
+  <section>
+    <h2>Eliminar usuario</h2>
+    <input id="delete-id" placeholder="ID del usuario (ej. 2)">
+    <button id="btn-delete">Eliminar</button>
+    <pre id="delete-result"></pre>
+  </section>
+</body>
+</html>
