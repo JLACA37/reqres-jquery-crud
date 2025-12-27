@@ -1,1 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
 
+section {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+input {
+  margin: 3px;
+}
+
+pre {
+  background: #f7f7f7;
+  padding: 10px;
+  max-height: 300px;
+  overflow: auto;
+}
